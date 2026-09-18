@@ -2,7 +2,7 @@
 
 int main()
 {
-    int n;
+    int n ;
     printf("Give Input: ");
     scanf("%d", &n);
     if (n == 0)
@@ -11,11 +11,11 @@ int main()
     }
     else
     {
-        int factorial = 0;
+        int factorial = 1;
         int i = n;
         while (i)
         {
-            factorial += i;
+            factorial *= i;
             i--;
         }
         printf("%d! = %d", n, factorial);

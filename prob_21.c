@@ -2,9 +2,9 @@
 
 int main()
 {
-    int n ;
-    printf("Number Input: ");
-    scanf("%d",&n);
+    int n = 2 ;
+    // printf("Number Input: ");
+    // scanf("%d",&n);
     if (n > 1)
     {
         for (int i = 2; i < n; i++)
@@ -21,6 +21,11 @@ int main()
             }
         }
     }
+    else if (n == 2)
+    {
+        printf("%d is a prime number", n);
+    }
+    
     else
     {
         printf("%d is not a prime number", n);
