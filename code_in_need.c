@@ -7,7 +7,7 @@ int main()
     setlocale(LC_ALL, "");
 
     printf("Enter Numbers with a space between them then : ");
-    for (int i = 1; i <= 3; i++){
+    for (int i = 1; i <= 81; i++){
         scanf("%f", &val);
         printf("%.1f\n", val / 5.0f);
     }
