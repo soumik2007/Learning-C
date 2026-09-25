@@ -3,18 +3,20 @@
 int patern(int);
 int patern(int n)
 {
-    for (int i = 1; i <= n; i += 2)
+    int row = 1;
+    for (int i = 1; i <= n; i++)
     {
-        for (int a = 1; a <= i; a++)
+        printf("\n");
+        for (int a = 1; a <= row; a++)
         {
             printf("*");
         }
-        printf("\n");
+        row += 2;
     }
 }
 
 int main()
 {
-    patern(5);
+    patern(3);
     return 0;
 }
