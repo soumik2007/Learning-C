@@ -1,6 +1,17 @@
 // learning and practicing arrays
 #include <stdio.h>
 
+// Defining array in a function
+void array(int, int);
+void array(int a[], int n) 
+// this syntax will be used : (int a[] , int n)
+{
+    for (int i = 0; i < 10; i++)
+    {
+        printf("number[%d] = %d\n", i, number[i]);
+    }
+}
+
 int main()
 {
     // intro to array
