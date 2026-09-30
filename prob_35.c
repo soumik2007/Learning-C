@@ -1,9 +1,8 @@
 #include <stdio.h>
-int sum_avg(int* , int* );
-int sum_avg(int* x, int* y){
-    
-}
-int main(){
 
+int main(){
+    int i = 2;
+    int* j = &i;
+    printf("%d",*j);
     return 0;
 }
